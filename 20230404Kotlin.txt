@@ -1,0 +1,125 @@
+
+fun main() {
+//  var var1 = 10
+//  var var2 = 10.1f
+//  var var3 = 10.2
+//  var var4 = '안'
+//  var var5 = "안드로이드"
+// 	println(var1)
+// 	println(var2)
+// 	println(var3)
+// 	println(var4)
+// 	println(var5)
+  
+//  var myVar : Int = 100
+//  myVar = 200 // 정상
+//  val myval : Int = 100
+//  // myVal = 200 // 오류
+
+//  var a : Int = "100".toInt()
+//  var b : Double = "100.123".toDouble()
+  
+//  var notNull : Int = null // 오류
+//  var okNull : Int? = null // 정상
+  
+//  var ary = ArrayList<Int>(1)
+//  ary!!.add(100)
+
+//  var count : Int = 85
+//  if (count >= 90) {
+//      println("if문: 합격 (장학생)")
+//  } else if (count >= 60) {
+//      println("if문: 합격")
+//  } else {
+//      println("if문: 불합격")
+//  }
+//  
+//  var jumsu : Int = (count / 10) * 10
+//  when (jumsu) {
+//      100 -> println("when문: 합격(장학생)")
+//      90 -> println("when문: 합격(장학생)")
+//      80, 70, 60 -> println("when문: 합격")
+//      else -> println("when문: 불합격")
+//  }
+    
+//  var jumsu : Int = 95
+//  when(jumsu){
+//   	in 90..100 -> println("when문: 합격(장학생)")
+//   	in 60..89 -> println("when문: 합격")
+//   	else -> println("when문: 불합격")
+//  }
+//  
+// 	var one = Array<Int>(4, {0})
+//  one[0] = 10
+//  one[3] = 20
+//  for(i in one.indices)
+//  	println(one[i])
+    
+//  var two = Array<IntArray>(3, {IntArray(4)})
+//  two[0][0] = 100
+//  two[2][3] = 200
+//  for(i in one.indices)
+//  	println(one[i])
+    
+//  var two = Array<IntArray>(3, {IntArray(4,{2})})
+// 	3행 4열의 2차원 배열
+// 	row의 index: 0~2
+// 	col의 index: 0~3
+// 	two[1][2] = 100
+//  two[2][3] = 200
+    
+//  for((i, row) in two.withIndex()){
+//  	for((j, col) in row.withIndex()){
+//  		print("($i, $j) = $col\t")
+//      }
+//      println()
+//  }
+    
+//  var three : IntArray = intArrayOf(1,2,3)
+  
+// 	var arrList = ArrayList<Int>(5)
+//  arrList.add(10)
+//  arrList.add(20)
+//  arrList.add(30)
+//  arrList.add(40)
+//  arrList.add(50)
+    
+//  var sum = 0
+//  for(num in arrList){
+//      sum += num
+//  }
+//  println(sum)
+	
+//  for(i in 1..10 step 1){
+//      println("집보내줘...")
+//  }
+//  
+//  var leng = 5;
+//  for(j in 1..leng){
+//      print("$j / ")
+//  }
+//  println()
+//  for(i in 1 until leng){
+//      print("$i | ")
+//  }
+    
+    var one : IntArray = intArrayOf(10, 20, 30)
+    for(i in one.indices){
+        println(one[i])
+    }
+    for(value in one){
+        println(value);
+    }
+    
+    var two : Array<String> = arrayOf("하나", "둘", "셋")
+    for(i in 0..2 step 1){
+        println(two[i])
+    }
+    var k : Int = 0
+    while(k < two.size){
+        println(two[k])
+        k++
+    }
+    
+    
+}

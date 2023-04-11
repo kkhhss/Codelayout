@@ -35,9 +35,12 @@ class Eagle : Animal(){
 fun main() {
     var cat = iCat()
     cat.eat()
-    b 
+    
     var tiger = iTiger()
     tiger.move()
     tiger.eat()
     tiger.catchDear()
+    
+    var eagle1 = Eagle()
+    eagle1.move()
 }

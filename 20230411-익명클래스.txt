@@ -1,6 +1,7 @@
 익명클래스(Anonymous Class)
 
 ActionListener listener = new ActionListener(){
+
 	public void actionPerformed(ActionEvent e){
 
 	}
@@ -8,6 +9,7 @@ ActionListener listener = new ActionListener(){
 
 btn.addActionListener(listener);
 btn1.addAction:istener(new ActionListener(){
+
 	public void actionPerformed(ActionEvent e){
 
 	}

@@ -1,0 +1,14 @@
+익명클래스(Anonymous Class)
+
+ActionListener listener = new ActionListener(){
+	public void actionPerformed(ActionEvent e){
+
+	}
+}
+
+btn.addActionListener(listener);
+btn1.addAction:istener(new ActionListener(){
+	public void actionPerformed(ActionEvent e){
+
+	}
+});
